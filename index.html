@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Frontend Mentor | Time tracking dashboard</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div class="section1">
+        <div class="jeremy">
+          <img src="images/image-jeremy.png" class="img" />
+          <div>
+            <p>Report for</p>
+            <div class="heady">Jeremy Robson</div>
+          </div>
+        </div>
+        <div class="schedule">
+          <p class="daily">Daily</p>
+          <p class="week">Weekly</p>
+          <p class="month">Monthly</p>
+        </div>
+      </div>
+
+      <div class="section2">
+        <div class="part1">
+          <div class="red property">
+            <img src="images/icon-work.svg" class="image" />
+            <div class="work activity">
+              <div class="flexy">
+                <div>Work</div>
+                <div class="dotss">
+                  <!-- <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span> -->
+                  <img src="images/icon-ellipsis.svg" />
+                </div>
+              </div>
+              <div class="partition">
+                <div class="number">32hrs</div>
+                <p class="description">Last Week - 36hrs</p>
+              </div>
+            </div>
+          </div>
+          <div class="blue property">
+            <img src="images/icon-play.svg" class="image" />
+            <div class="play activity">
+              <div class="flexy">
+                <div>Play</div>
+                <div class="dotss">
+                  <img src="images/icon-ellipsis.svg" />
+                </div>
+              </div>
+              <div class="partition">
+                <div class="number">10hrs</div>
+                <p class="description">Last Week - 8hrs</p>
+              </div>
+            </div>
+          </div>
+          <div class="pink property">
+            <img src="images/icon-study.svg" class="image" />
+            <div class="study activity">
+              <div class="flexy">
+                <div>Study</div>
+                <div class="dotss">
+                  <img src="images/icon-ellipsis.svg" />
+                </div>
+              </div>
+              <div class="partition">
+                <div class="number">4hrs</div>
+                <p class="description">Last Week - 7hrs</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="part2">
+          <div class="green property">
+            <img src="images/icon-exercise.svg" class="image" />
+            <div class="exercise activity">
+              <div class="flexy">
+                <div>Exercise</div>
+                <div class="dotss">
+                  <img src="images/icon-ellipsis.svg" />
+                </div>
+              </div>
+              <div class="partition">
+                <div class="number">4hrs</div>
+                <p class="description">Last Week - 5hrs</p>
+              </div>
+            </div>
+          </div>
+          <div class="purple property">
+            <img src="images/icon-social.svg" class="image" />
+            <div class="social activity">
+              <div class="flexy">
+                <div>Social</div>
+                <div class="dotss">
+                  <img src="images/icon-ellipsis.svg" />
+                </div>
+              </div>
+              <div class="partition">
+                <div class="number">5hrs</div>
+                <p class="description">Last Week - 10hrs</p>
+              </div>
+            </div>
+          </div>
+          <div class="yellow property">
+            <img src="images/icon-self-care.svg" class="image" />
+            <div class="care activity">
+              <div class="flexy">
+                <div>Self Care</div>
+                <div class="dotss">
+                  <img src="images/icon-ellipsis.svg" />
+                </div>
+              </div>
+              <div class="partition">
+                <div class="number">2hrs</div>
+                <p class="description">Last Week - 2hrs</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Sonakshi Rawat</a>.
+    </div>
+    <script type="text" src="data.json"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

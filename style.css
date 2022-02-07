@@ -1,0 +1,309 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap");
+body {
+  font-family: "Rubik", sans-serif;
+  font-size: 17px;
+  background-color: hsl(226, 43%, 10%);
+  color: white;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 6%;
+}
+
+.section1 {
+  display: flex;
+  flex-direction: column;
+  background-color: hsl(235, 46%, 20%);
+  border-radius: 10px;
+  margin-right: 10px;
+  height: 387px;
+}
+
+.section2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.part1,
+.part2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.schedule {
+  padding: 5px 20px;
+}
+
+.jeremy {
+  background-color: hsl(235, 45%, 61%);
+  font-size: 35px;
+  font-weight: 100;
+  border-radius: 10px;
+  padding: 20px;
+  min-height: 210px;
+  max-width: 180px;
+}
+
+.img {
+  width: 45px;
+  height: 45px;
+  margin-right: 10px;
+  border: 2px solid white;
+  border-radius: 50%;
+}
+
+.jeremy p {
+  color: hsl(236, 100%, 87%);
+  font-size: 12px;
+}
+
+.schedule p {
+  color: hsl(236, 100%, 87%);
+}
+
+.schedule p:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.number {
+  font-size: 40px;
+  font-weight: 300;
+  padding: 3px;
+  margin-top: 10px;
+}
+
+.activity p {
+  color: hsl(236, 100%, 87%);
+}
+
+.flexy {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.red {
+  background-color: hsl(15, 100%, 70%);
+}
+
+.blue {
+  background-color: hsl(195, 74%, 62%);
+}
+.pink {
+  background-color: hsl(348, 100%, 68%);
+}
+.green {
+  background-color: hsl(145, 58%, 55%);
+}
+.purple {
+  background-color: hsl(264, 64%, 52%);
+}
+.yellow {
+  background-color: hsl(43, 84%, 65%);
+}
+
+.property {
+  margin: 5px;
+  border-radius: 13px;
+  width: 190px;
+  position: relative;
+}
+.activity {
+  background-color: hsl(235, 46%, 20%);
+  border-radius: 10px;
+  margin-top: 35px;
+  padding: 9px 20px;
+  z-index: 1;
+  position: relative;
+}
+
+.activity:hover {
+  background-color: rgb(56, 56, 97);
+}
+
+.image {
+  position: absolute;
+  top: 1%;
+  right: 4%;
+  width: 58px;
+  z-index: 0.5;
+}
+
+@media (max-width: 848px) {
+  body {
+    font-size: 15px;
+  }
+
+  .activity {
+    padding: 5px 10px;
+  }
+
+  .jeremy {
+    background-color: hsl(235, 45%, 61%);
+    font-size: 30px;
+    padding: 5px;
+  }
+
+  .section1 {
+    height: 355px;
+  }
+  .property {
+    width: 173px;
+  }
+}
+
+@media (max-width: 758px) {
+  body {
+    font-size: 12px;
+  }
+
+  main {
+    margin-top: 15%;
+  }
+  .activity {
+    margin-top: 25px;
+  }
+
+  .property {
+    width: 130px;
+  }
+
+  .jeremy {
+    font-size: 30px;
+    padding: 10px;
+    min-height: 100px;
+    max-width: 130px;
+  }
+  .section1 {
+    height: 285px;
+    margin-right: 5px;
+  }
+
+  .number {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 582px) {
+  body {
+    font-size: 15px;
+  }
+  .part1,
+  .part2 {
+    flex-direction: column;
+  }
+
+  main {
+    flex-direction: column;
+    margin-top: 6%;
+  }
+
+  .schedule {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .jeremy {
+    font-size: 35px;
+    padding: 20px;
+    min-height: 70px;
+    min-width: 363px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .section1 {
+    height: 180px;
+    margin-left: 6px;
+
+  }
+
+  .property {
+    margin: 5px;
+    width: 400px;
+    margin-top: 10px;
+    position: relative;
+  }
+  .activity {
+    border-radius: 10px;
+    margin-top: 45px;
+    padding: 9px 25px;
+  }
+  .number {
+    font-size: 35px;
+  }
+
+  .partition {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .image {
+    width: 55px;
+  }
+}
+
+@media (max-width: 445px) {
+  body {
+    font-size: 12px;
+  }
+
+  .jeremy {
+    font-size: 25px;
+    min-width: 226px;
+    /* margin-left: 36px; */
+  }
+
+  .section1 {
+    height: 160px;
+    margin-left: 6px;
+  }
+
+  .activity {
+    margin-top: 35px;
+  }
+  .number {
+    font-size: 30px;
+  }
+
+  .property {
+    width: 265px;
+  }
+}
+
+/* for vertical dots
+ .test:after {
+    content: '\2807';
+    font-size: 100px;
+    }
+    for horizontal dots
+    .dot {
+        height: 5px;
+        width: 5px;
+        background-color: white;
+        border-radius: 50%;
+        display: inline-block;
+        font-weight: bold;
+      }
+      
+      .dotss:hover {
+        background-color: rgba(0, 0, 0, 0.164);
+        border: 2px solid rgba(245, 245, 245, 0.315);
+        padding: 3px;
+        border-radius: 5px;
+      } */
